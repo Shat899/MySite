@@ -1,20 +1,34 @@
 body{
     margin: auto;
+    background-color:hsl(0, 0%, 79%);
+    margin-bottom: 50px ;
+    margin-top: 70px;
 }
 main{
-    margin-left: 10px ;
-    margin-right: 10px ;
+    margin-left: 50px ;
+    margin-right: 50px ;
 }
 
-h1{
-    text-align: center; 
+h4{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 150px;
+     letter-spacing: normal;
+     margin: auto;
+     text-align: center;
 }
 .navbar ul{
     list-style: none ;
     background-color:hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px ;
-    overflow: hidden;
+    width: 2100px;
+    height: 50px;
+    top: 0px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px; 
+    margin-right: 0px; 
+
 }
 .navbar a{
     color: white;
@@ -28,4 +42,74 @@ h1{
 }
 .navbar li{
 float: left;
+}
+h3{
+    font-family: Arial, 'Times New Roman';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 150px;
+    text-align: left;
+    text-decoration: underline;
+   /* text-indent: 30px;*/ 
+   text-transform: uppercase;
+   color: rgb(90, 5, 90);
+   letter-spacing: normal;
+   margin: 5px;
+   margin-top: 20px;
+}
+p{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: normal;
+    margin-left: 15px;
+
+}
+.list ul{
+
+    list-style-image: url("../images/icons8-dot.png");
+    font-size: 25px;
+    padding: auto;
+    margin: 30px;
+    margin-left: 15px;
+    list-style-position: inside;
+}
+.videowraper1{
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 550px;
+   right: 750px;  
+   
+ 
+}
+.image{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.navbar a:hover{
+    background-color:hsl(0, 0%, 79%);
+    padding: 16px 20px;
+    border-radius: 12px;
+    color: rgb(90, 5, 90);
+    transition: all 1s;
+}
+.up img{
+    width: 50px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 100%;
+    
+    
+}
+.up img:hover{
+    transform: scale(1.5, 1.5);
+    transition: all 0.3s; 
 }
